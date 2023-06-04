@@ -15,4 +15,4 @@ See class documents.
 Script tab &gt; Search Help &gt; class name
 
 ## List of classes
-- NfStopwatch v1.0.0 - A class for stopwatch in microseconds.
+- NfStopwatch v1.1.0 - A class for stopwatch in microseconds.

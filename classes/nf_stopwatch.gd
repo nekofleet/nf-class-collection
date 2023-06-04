@@ -1,7 +1,7 @@
 class_name NfStopwatch
 ## A class for stopwatch in microseconds.
 ##
-## Version: 1.0.0
+## Version: 1.1.0
 ## [codeblock]
 ## var sw = NfStopwatch.new()
 ## #
@@ -194,3 +194,26 @@ func int_current_time(unit: String = "sec") -> int:
 			return int(float(t) / 1000.0)
 		_:
 			return t
+
+
+#-------------------------------------------------------------------------------
+# Methods for short version
+#-------------------------------------------------------------------------------
+## Same as float_lap_time("sec", lap).
+func lap_time(lap: int = -1) -> float:
+	return float_lap_time("sec", lap)
+
+
+## Same as float_split_time("sec", lap).
+func split_time(lap: int = -1) -> float:
+	return float_split_time("sec", lap)
+
+
+## Same as float_total_time("sec").
+func total_time() -> float:
+	return float_total_time("sec")
+
+
+## Same as float_current_time("sec").
+func current_time() -> float:
+	return float_current_time("sec")
