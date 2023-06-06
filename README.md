@@ -15,4 +15,5 @@ See class documents.
 Script tab &gt; Search Help &gt; class name
 
 ## List of classes
+- NfRandom v1.0.0 - A class for random.
 - NfStopwatch v1.1.0 - A class for stopwatch in microseconds.
